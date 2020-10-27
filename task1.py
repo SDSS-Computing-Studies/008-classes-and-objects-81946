@@ -43,7 +43,7 @@ class student:
     def average(self):
 
         self.gradeList.sort()
-        numgrades= self.gradeList.count()
+        numgrades= self.gradeList.count
         numgrades= numgrades(int)
         a= self.gradelist[0]
         b= self.gradeList[1]
