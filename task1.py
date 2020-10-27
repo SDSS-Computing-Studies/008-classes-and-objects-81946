@@ -124,6 +124,6 @@ def main():
     st2.getGrades( [71, 98, 93, 95, 68, 81, 71])
 
 
+main()
 
 
-print( showGrade(self) )
