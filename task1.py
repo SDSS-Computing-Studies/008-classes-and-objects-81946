@@ -26,8 +26,8 @@ class student:
     name= ''
     id= ''
     grade= ''
-    getCourses= ''
-    getGrades= ''
+    getCourses= []
+    getGrades= []
     # properties should be listed first
 
     def __init__(self, name, id, grade): # You will need to create your own input parameters for all methods
@@ -126,4 +126,4 @@ def main():
 
 
 
-main()
+print( showGrade(self) )
