@@ -27,7 +27,7 @@ class student:
     id= ''
     grade= ''
     getCourses= []
-    getGrades= []
+    getList= []
     # properties should be listed first
 
     def __init__(self, name, id, grade): # You will need to create your own input parameters for all methods
@@ -98,7 +98,7 @@ class student:
     
 
     def getGrades(self, gradeList):
-        self.getGrades= gradeList
+        self.gradeList= gradeList
         
         # gradeList is a list of all the grades
 
