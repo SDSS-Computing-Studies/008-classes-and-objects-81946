@@ -37,6 +37,7 @@ class student:
 
 
     def __del__(self):
+        #idk what to put here
         pass
 
     def average(self):
@@ -60,6 +61,7 @@ class student:
 
         answer1= a+b+c+d+e+f+g+h+i+j+k+l+m
         answer2= answer1/numgrades
+        return answer2
         print("The average of the studnets top five grades is"+ answer2)
 
     def getHonorRoll(self):
@@ -88,12 +90,16 @@ class student:
             print('')
             return false
 
+        else:
+            return false
+
     def getCourses(self, courseList):
         self.getCourses= courseList
     
 
-    def getGrades(self, gradeList ):
+    def getGrades(self, gradeList):
         self.getGrades= gradeList
+        
         # gradeList is a list of all the grades
 
 
