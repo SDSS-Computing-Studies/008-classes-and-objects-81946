@@ -45,19 +45,19 @@ class student:
         self.gradeList.sort()
         numgrades= self.gradeList.count()
         numgrades= numgrades(int)
-        a= gradelist[0]
-        b= gradeList[1]
-        c= gradeList[2]
-        d= gradeList[3]
-        e= gradeList[4]
-        f= gradeList[5]
-        g= gradeList[6]
-        h= gradeList[7]
-        i= gradeList[8]
-        j= gradeList[9]
-        K= gradeList[10]
-        l= gradeList[11]
-        m= gradeList[12]
+        a= self.gradelist[0]
+        b= self.gradeList[1]
+        c= self.gradeList[2]
+        d= self.gradeList[3]
+        e= self.gradeList[4]
+        f= self.gradeList[5]
+        g= self.gradeList[6]
+        h= self.gradeList[7]
+        i= self.gradeList[8]
+        j= self.gradeList[9]
+        K= self.gradeList[10]
+        l= self.gradeList[11]
+        m= self.gradeList[12]
 
         answer1= a+b+c+d+e+f+g+h+i+j+k+l+m
         answer2= answer1/numgrades
@@ -88,10 +88,10 @@ class student:
             print('')
             print("You are not in HonourRoll")
             print('')
-            return false
+            return False
 
         else:
-            return false
+            return False
 
     def getCourses(self, courseList):
         self.getCourses= courseList
